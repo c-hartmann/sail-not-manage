@@ -9,7 +9,7 @@ Version: 0.1.0, 2022-03-28
 
 ## Abstract
 
-Eine "webbasierte" Sportart unabhängige Open Source Software zur Vorbereitung, Begleitung und Auswertung von Sportwettkämpfen im Amateursportbereich.
+Eine "webbasierte" Sportart unabhängige Open Source Software zur Vorbereitung, Begleitung und insbesondere Auswertung von Sportwettkämpfen im Amateursportbereich.
 
 
 ## Das Projekt
@@ -47,37 +47,72 @@ Als Beispiele im Umfeld (am Beispiel Segelsport) seien genannt:
 
 Kennzahlen, Technologie, Klasse, Kosten
 
-### manage2sail
+### Manage2Sail
 
 * Nutzer:
-* Software Klasse:
+* Nutzung: umfangreich, sehr kompliziert, verwirrend, an allen guten Standards vorbei
+* Software Klasse: Web
 * Technologie:
 * Hersteller: DSV (u.A.)
 * Kosten: anfänglich Jahresgebühr, mittlerweile kostenfrei
+* Open Source: nein
+* Letzte Version:
 
 ### raceoffice.org
 
 * Nutzer:
-* Software Klasse:
+* Nutzung:
+* Software Klasse: Web
 * Technologie:
-* Hersteller:
-* Kosten:
+* Hersteller: Guido
+* Kosten: keine
+* Open Source: nein
+* Erste Version:
+* Letzte Version:
+* Link:
 
-### Velum
+### Velum Regatta
 
 * Nutzer:
-* Software Klasse:
-* Technologie:
-* Hersteller:
-* Kosten:
+* Nutzung:
+* Software Klasse: Fat Client, Windows 95 (inkl. Win 10) (sic)
+* Technologie: ?
+* Hersteller: Markus Wegmann
+* Kosten: 36 bzw. 54 Euro (max. für vier Jahre)
+* Open Source: nein
+* Erste Version:
+* Letzte Version: 2022
+* Link: https://www.velumng.com
 
 ### JavaScore
 
 * Nutzer:
-* Software Klasse:
-* Technologie:
+* Nutzung:
+* Software Klasse: Fat Client
+* Technologie: Java
+* Plattform: Windows, MacOS, Linux
 * Hersteller:
-* Kosten:
+* Kosten: keine (Open Source)
+* Weiteres: US-lastig
+* Open Source: ja
+* Erste Version:
+* Letzte Version: September 2017
+* Link: http://www.gromurph.org/javascore
+
+### WinRegatta
+
+* Nutzer:
+* Nutzung:
+* Software Klasse: Fat Client
+* Technologie:
+* Plattform: Windows
+* Hersteller: Günter Meissner
+* Kosten: 95 Euro einmalig (Updates kostenfrei)
+* Weiteres:
+* Open Source: nein
+* Erste Version: April 2001
+* Letzte Version: Juli 2021
+* Link: https://www.winregatta.de
 
 
 ## Sportart übergreifend
@@ -86,12 +121,14 @@ Die Kriterien für die Auswertung lassen sich in wenige und überschaubare "Mode
 
 Spezifische Algorythmen zur Auswertung können sehr anspruchsvoll sein und werden deshalb in "Modulen" realisiert. Neben der Basisaufgabe Auswertung steuern diese Module auch Ablauf eines Wettkampfs, z.B. durch Zwischenergebnisse
 
+
 ## Abgrenzung
 
 s!m (Core) soll nicht:
 
 * Alle möglichen denkbaren organisatorischen Aufgaben eines Wettkampfs unterstützen.
 * Keine Vereins- oder Mitgliederverwaltug sein
+
 
 ## Erweiterbarkeit
 
@@ -102,6 +139,8 @@ s!m (Core) soll aber erweiterbar sein. Als Beispiele seien hier genannt:
 * Statistik
 * Fair Play Wertungen
 * Zahlungen von Startgeldern (PayPal u.A.)
+* Einreichen von Dokumenten durch Teilnehmer (z.B. Proteste, Anträge jeder Art)
+  (im Upload oder direkte Formulare)
 
 
 ## Technische Umsetzung
@@ -162,3 +201,13 @@ Nach einer initialen Projektphase soll dauerhaft der Cloud gestützte Betrieb f�
 Neben der SaaS Variante ist es jedem Sportverein möglich, s!m selbst zu betreiben. Ein nahtloser einfachster Übergang von SaaS zur selbst-gehosteten Variante ist durch Synchronisation der Datenbestände möglich. Auch ein zeitlich begrenzter gleichzeitiger Betrieb ist dadurch möglich.
 
 Entwicklung einer Anwendung für Smartphones.
+
+
+
+
+Anlagen:
+
+Screenshots verschiedenster Software Pakete
+Auswertesysteme im Segelsport (WR Anhang A, Yardstick, ORC)
+Dokumentation CoMaTo, Screenshots, Beschreibung
+Verschiedene Auswertungen / Ergebnislisten
