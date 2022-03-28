@@ -4,6 +4,8 @@
 
 nachfolgend 's!m'
 
+Version: 0.1.0, 2022-03-28
+
 
 ## Abstract
 
@@ -112,6 +114,8 @@ s!m ist ein webbasiertes Werkzeug und wird aus den oben genannten Gründen mit P
 
 Um eine nahtlose Integration in vorhandenen Vereins-Webseiten zu ermöglichen, soll schon zum Ende des ersten Projektzeitraums ein WordPress Plugin mit einem Auszug der Funktionalitäten (insbesondere Meldung und Dokumente) zur Verfügung stehen. Dieses lässt sich sowohl eine SaaS Lösung der Cloud, als auch an eine selbst-gehostete Implementierung anbinden.
 
+Auf Basis der verwendeten Werkzeuge wird von Anfang an eine (REST) API entstehen.
+
 
 ### User Interface
 
@@ -129,21 +133,22 @@ s!m wird von Anfang an internationalisiert entwickelt. Zunächst in Englisch und
 
 ## User (siehe KDE) Zielpersonen, Nutzer
 
+### Niklas
+
+Hat keinen Plan von gar nichts und will nur zu einer Veranstaltung melden
+
 ### Uwe
 
-Organisiert die Veranstaltung, hat keinerlei IT Background und leitet am Ende den Wettkampt. Das Alles in seiner eh schon begernzten Freizeit.
+Organisiert die Veranstaltung, hat keinerlei IT Background und leitet am Ende den Wettkampt. Das Alles in seiner eh schon begrenzten Freizeit.
 
 ### Michael
 
 Ist der IT Beauftragte seines Vereins, hat vielleicht sogar Informatik studiert und kann auch programmieren.
 
-### Niklas
-
-Hat keinen Plan von gar nichts und will nur zu einer Veranstaltung melden
-
 ### Maria
 
 Sitzt im "Büro" des Vereins und gleicht Meldungen mit Zahlungen ab und erteilt eine Startberechtigung.
+
 
 ## Ausblick
 
