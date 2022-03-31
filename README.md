@@ -12,7 +12,7 @@ this document living: https://github.com/c-hartmann/sail-manage
 
 ## Abstract
 
-Eine browserbasierte Sportart unabhängige Open Source Software zur Vorbereitung (Meldung), Begleitung (Kommunikation) und insbesondere Ergebnisermittlung (Auswertung) von Sportwettkämpfen im Amateursportbereich.
+Eine browserbasierte Sportart unabhängige Open Source Software zur Vorbereitung (Meldung), Begleitung (Kommunikation und Veröffentlichungen) und insbesondere Ergebnisermittlung (Auswertung) von Sportwettkämpfen im Amateursportbereich.
 
 
 ## Das Projekt
@@ -37,15 +37,21 @@ Ein überdurchschnittlich weit verbreitetes Modell von Software zu diesem Zweck 
 * kaum oder gar nicht vorhandene Erweiterbarkeit (Module)
 * Monolytische Architektur
 * Einzelentwickler (oft mit direktem Bezug zur Sportart)
+* Keine Internationalisierung
+* Nutzung nur durch Veranstalter
 
 s!m soll sich hingegen auszeichnen durch:
 
 * Open Source (unwiderruflich)
-* basiert auf gängigen Programmiersprachen
+* basiert auf verbreiteten Programmiersprachen
 * Erweiterbarkeit
+* API
+* i10n
+* Primär browserbasiert
+* Nutzung durch Veranstalter und Teilnehmer
 
 
-## Umfeldanalyse (exemplatrich)
+## Umfeldanalyse (exemplarisch)
 
 Als Beispiele im Umfeld (am Beispiel Segelsport) seien genannt:
 
@@ -132,7 +138,6 @@ Es gibt eine offenkundig kommerzielle Plattform "PLAYINGA", deren Urspung in Ind
 * Letzte Version: 2022
 * Link: https://playinga.com
 
-
 ### WMTurnier
 
 WMTurnier ist eine seit 1999 entwickelte aus Deutschland stammende Software zur Verwaltung von Turnieren.
@@ -146,7 +151,6 @@ WMTurnier ist eine seit 1999 entwickelte aus Deutschland stammende Software zur 
 * Erste Version: 1999
 * Letzte Version: 2017
 * Link: https://www.turniermanager.de
-
 
 ### SPORT Software - Turnier Manager
 
@@ -236,7 +240,7 @@ Hat keinen Plan von gar nichts und will nur zu einer Veranstaltung melden
 
 ### "Uwe"
 
-Organisiert die Veranstaltung, hat keinerlei IT Background und leitet am Ende den Wettkampt. Das Alles in seiner eh schon begrenzten Freizeit.
+Organisiert die Veranstaltung, hat keinerlei IT Background und leitet am Wochenende den Wettkampt. Das Alles in seiner eh schon begrenzten Freizeit.
 
 ### "Michael"
 
@@ -245,6 +249,20 @@ Ist der IT Beauftragte seines Vereins, hat vielleicht sogar Informatik studiert 
 ### "Maria"
 
 Sitzt im "Büro" des Vereins und gleicht Meldungen mit Zahlungen ab und erteilt eine Startberechtigung.
+
+
+## Meilensteine
+
+1. Quick Vertical Demonstrator (functional limited)
+2. Ausarbeitung der Architektur und der Datenmodelle auf Basis der Erfahrungen mit 1.
+3. Ausarbetung / Entwurf API
+4. Trennungg von Frontend und API
+5. Isolation des sportartspezifischen Teils (Sailing)
+6. Implementierung als Module, Ausarbeitung Modul-Schnittstelle
+7. Implementierung erster Extensions: Payment, Entries, Auswertung
+8. Schnittstelle Datenexport (insbesondere Ergebnisse)
+9. Stylesheets Ergebnisse (HTML / PDF)
+10. Öffentliche Beta
 
 
 ## Ausblick
