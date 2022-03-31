@@ -215,7 +215,9 @@ Um eine nahtlose Integration in vorhandenen Vereins-Webseiten zu ermöglichen, s
 
 Auf Basis der verwendeten Werkzeuge wird von Anfang an eine (REST) API entstehen.
 
-Der Antragsteller verfügt über professionelle praktische Erfahrung in der Realisierung eines mittelgroßen Projektes auf Basis von CakePHP und dem Design sowie Umsetzung verschiedener REST basierter APIs.
+Der Antragsteller verfügt über professionelle praktische Erfahrung in der Realisierung und dem Design sowie Umsetzung verschiedener REST basierter APIs.
+
+Desweiteren hat er ein mittelgroßes Projekt auf Basis von CakePHP in ca. drei Monaten realisiert. (Vorstellung nur vertraulich)
 
 
 ### User Interface
@@ -256,14 +258,17 @@ Sitzt im "Büro" des Vereins und gleicht Meldungen mit Zahlungen ab und erteilt 
 1. Quick Vertical Demonstrator (functional limited)
 2. Ausarbeitung der Architektur und der Datenmodelle auf Basis der Erfahrungen mit 1.
 3. Ausarbetung / Entwurf API
-4. Trennungg von Frontend und API
+4. Trennung von Frontend und API
 5. Isolation des sportartspezifischen Teils (Sailing)
-6. Implementierung als Module, Ausarbeitung Modul-Schnittstelle
-7. Implementierung erster Extensions: Payment, Entries, Auswertung
-8. Schnittstelle Datenexport (insbesondere Ergebnisse)
-9. Stylesheets Ergebnisse (HTML / PDF)
-10. Öffentliche Beta
+6. Modulasierung des Kerns (mit besonderem Blick auf Frontend, Micro GUI)
+7. Ausarbeitung Modul-Schnittstelle, Implementierung als Module
+8. Implementierung erster Extensions: Payment, Entries, Auswertung
+9. Schnittstelle Datenexport (insbesondere Ergebnisse)
+10. Stylesheets Ergebnisse (HTML / PDF)
+11. Stylesheets / Design Frontend / Fokus Usability
+12. Öffentliche Beta
 
+Dokumentation über den gesamten Zeitraum
 
 ## Ausblick
 
@@ -287,9 +292,17 @@ Neben der SaaS Variante ist es jedem Sportverein möglich, s!m selbst zu betreib
 Entwicklung einer Anwendung für Smartphones insbesondere für Meldung und Zahlungen.
 
 
+### Der Antragsteller
+
+Christian Hartmann
+1963-07-27 (Berlin)
+Studium Maschinenbau und Informatik an der TU Berlin
+Selbstständig tätig seit 1990
+Seit vielen Jahren ehrenamtlich im Sport engangiert
 
 
-Anlagen:
+
+Anlagen (online):
 
 Screenshots verschiedenster Software Pakete
 Auswertesysteme im Segelsport (WR Anhang A, Yardstick, ORC)
