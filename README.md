@@ -181,7 +181,7 @@ Spezifische Algorythmen zur Auswertung können sehr anspruchsvoll sein und werde
 
 ### Sub-Module
 
-Sportartspezifische aber z.B. ländespezifische Aspekte (insbesondere) bei der Auswertung werden in Sub-Modulen realisiert. Acuh hier gilt das Prinzip für die Nutzbarkeit: "Nicht mehr als nötig".
+Sportartspezifische aber z.B. ländespezifische Aspekte (insbesondere) bei der Auswertung werden in Sub-Modulen realisiert. Auch hier gilt das Prinzip für die Nutzbarkeit: "Nicht mehr als nötig".
 
 
 ## Erweiterbarkeit / Extensions
@@ -200,7 +200,7 @@ s!m (Core) soll aber erweiterbar sein. Als Beispiele seien hier genannt:
 
 Gemeinsames Merkmal der Erweiterungen ist, dass sie im Gegensatz zu Modulen prinzipiell unabhängig von einer Sportart sind.
 
-(nicht Teil der Zielvorgabe im Rahmen des Projektantrages9
+(nicht Teil der Zielvorgabe im Rahmen des Projektantrages)
 
 
 ## Technische Umsetzung
@@ -257,12 +257,12 @@ Sitzt im "Büro" des Vereins und gleicht Meldungen mit Zahlungen ab und erteilt 
 
 1. Quick Vertical Demonstrator (functional limited)
 2. Ausarbeitung der Architektur und der Datenmodelle auf Basis der Erfahrungen mit 1.
-3. Ausarbetung / Entwurf API
+3. Ausarbeitung / Entwurf API
 4. Trennung von Frontend und API
 5. Isolation des sportartspezifischen Teils (Sailing)
 6. Modulasierung des Kerns (mit besonderem Blick auf Frontend, Micro GUI)
-7. Ausarbeitung Modul-Schnittstelle, Implementierung als Module
-8. Implementierung erster Extensions: Payment, Entries, Auswertung
+7. Ausarbeitung Modul-Schnittstelle, Implementierung als Module: Entries, Auswertung
+8. Implementierung erster Extensions: Payment
 9. Schnittstelle Datenexport (insbesondere Ergebnisse)
 10. Stylesheets Ergebnisse (HTML / PDF)
 11. Stylesheets / Design Frontend / Fokus Usability
@@ -287,18 +287,18 @@ Mögliche Finanzierungsmodelle dafür sind:
 
 Neben der SaaS Variante ist es jedem Sportverein möglich, s!m selbst zu betreiben. Ein nahtloser einfachster Übergang von SaaS zur selbst-gehosteten Variante ist durch Synchronisation der Datenbestände möglich. Auch ein zeitlich begrenzter gleichzeitiger Betrieb ist dadurch möglich.
 
-### Mobile
+### Mobile Platformen
 
 Entwicklung einer Anwendung für Smartphones insbesondere für Meldung und Zahlungen.
 
 
 ### Der Antragsteller
 
-Christian Hartmann
-1963-07-27 (Berlin)
-Studium Maschinenbau und Informatik an der TU Berlin
-Selbstständig tätig seit 1990
-Seit vielen Jahren ehrenamtlich im Sport engangiert
+* Christian Hartmann
+* geb. 1963-07-27 (Berlin)
+* Studium Maschinenbau und Informatik an der TU Berlin
+* Selbstständig tätig seit 1990
+* Seit vielen Jahren ehrenamtlich im (Segel)-Sport engagiert
 
 
 
