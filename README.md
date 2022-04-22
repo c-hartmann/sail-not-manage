@@ -287,7 +287,7 @@ Mögliche Finanzierungsmodelle dafür sind:
 
 Neben der SaaS Variante ist es jedem Sportverein möglich, s!m selbst zu betreiben. Ein nahtloser einfachster Übergang von SaaS zur selbst-gehosteten Variante ist durch Synchronisation der Datenbestände möglich. Auch ein zeitlich begrenzter gleichzeitiger Betrieb ist dadurch möglich.
 
-### Mobile Platformen
+### Mobile Plattformen
 
 Entwicklung einer Anwendung für Smartphones insbesondere für Meldung und Zahlungen.
 
